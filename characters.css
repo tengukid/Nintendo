@@ -1,0 +1,298 @@
+body {
+    font-family: "Nunito";
+    background-color: #fd1e00;
+    height: 100vh;
+
+
+
+}
+
+#mainNav {
+
+    padding: 0;
+    margin: 0;
+}
+
+#navLogo {
+
+    color: rgb(241, 231, 231);
+    font-size: 20px;
+
+}
+
+.content {
+
+    margin-bottom: 100px;
+}
+
+.blurb h2 {
+
+    color: rgb(19, 4, 4);
+    font-weight: 100;
+    font: 2.5rem;
+}
+
+
+.blurb p {
+
+    color: #ffffff;
+    line-height: 2;
+    font: 1.5rem;
+}
+
+#navmenu {
+
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+#navmenu .nav-link {
+
+    color: rgb(255, 255, 255)
+}
+
+#navmenu .nav-link:hover {
+
+    color: rgb(17, 15, 15);
+}
+
+
+#headingGroup span {
+
+    color: rgb(22, 7, 7);
+}
+
+#headingGroup h1 {
+
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+
+
+button {
+
+    border: 10px solid rgb(15, 9, 9);
+}
+
+
+.mappics {
+
+    border: 10px solid rgb(255, 252, 252);
+    margin: 10px;
+    border-style: inset;
+    border-radius: 50px;
+    flex-basis: 100%;
+    text-align: left;
+    height: 400px;
+    flex-basis: 30%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+
+}
+
+.mappicstext {
+
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(212, 212, 212);
+    padding: 2px 6px 2px 6px;
+    text-align: left;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+
+
+.citiescontainer {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-toggler {
+
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.scrolled {
+
+    background: rgb(0, 0, 0);
+
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.dark-toggler button {
+
+    border: none;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+
+}
+
+
+#mario {
+
+    background-image: url(IMGS/mario.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+#zelda {
+    background-image: url(IMGS/zeldaMM.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+
+}
+
+#pokemon {
+    background-image: url(IMGS/pkemon.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+
+}
+
+#AC {
+    background-image: url(IMGS/AC.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+
+#Kirby {
+    background-image: url(IMGS/kirby.webp);
+    background-size: cover;
+    border-radius: 60px;
+
+}
+
+#DK {
+    background-image: url(IMGS/dk.webp);
+    background-size: cover;
+    border-radius: 40px;
+    background-position: center;
+}
+
+#FZ {
+    background-image: url(IMGS/f-zero-x---button-1559955074944.jpg);
+    background-size: cover;
+    border-radius: 40px;
+
+}
+
+#Starfox {
+    background-image: url(IMGS/sf.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+}
+
+#FE {
+    background-image: url(IMGS/fe.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+}
+
+.dtCON {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    border-radius: 40px;
+}
+
+.dark-mode #MON {
+
+    color: rgb(255, 10, 10);
+}
+
+.flip-container {
+    perspective: 1000px;
+}
+
+.flipper {
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+}
+
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front {
+    z-index: 2;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.flipped {
+
+    transform: rotateY(180deg);
+}
+
+.backOfCard {
+
+    height: 100%;
+    width: 100%;
+    background-color: #ebe6e6;
+    transform: rotateY(180deg);
+    border-radius: 30px;
+}
+
+.card {
+
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+
+@media(max-width:1200px) {
+
+    #headingGroup h1 {
+
+        font-size: 3rem;
+        font-weight: 100;
+    }
+
+}

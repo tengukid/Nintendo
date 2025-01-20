@@ -1,0 +1,143 @@
+body {
+    font-family: "Nunito";
+
+
+    background-color: #fd1e00;
+}
+
+#navLogo {
+
+    color: rgb(241, 231, 231);
+    font-size: 30px;
+
+}
+
+.content {
+
+    margin-bottom: 100px;
+}
+
+.blurb h2 {
+
+    color: rgb(19, 4, 4);
+    font-weight: 100;
+    font: 2.5rem;
+}
+
+
+.blurb p {
+
+    color: #ffffff;
+    line-height: 2;
+    font: 1.5rem;
+}
+
+#navmenu {
+
+    color: red;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+#navmenu .nav-link {
+
+    color: rgb(255, 255, 255)
+}
+
+#navmenu .nav-link:hover {
+
+    color: rgb(17, 15, 15);
+}
+
+
+#headingGroup span {
+
+    color: rgb(22, 7, 7);
+}
+
+#headingGroup h1 {
+
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+#mainIMGS {
+
+    aspect-ratio: 1;
+
+    height: 400px;
+    width: 500px;
+    border: 10px solid rgb(255, 252, 252);
+    margin: 10px;
+    border-style: inset;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+button {
+
+    border: 10px solid rgb(15, 9, 9);
+}
+
+#formcon {
+
+    border: 2px solid black;
+    margin-top: 80px;
+    border-style: inset;
+    border-radius: 20px;
+    background-color: #fdfdfd;
+    width: 1000px;
+
+}
+
+#switchicon {
+    height: 50px;
+    width: 50px;
+
+}
+
+.navbar.scrolled {
+
+    background: rgb(222, 192, 222);
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-toggler {
+
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.dark-toggler button {
+
+    border: none;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.dtCON {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+@media(max-width:1200px) {
+
+    #headingGroup h1 {
+
+        font-size: 3rem;
+        font-weight: 100;
+    }
+
+}
