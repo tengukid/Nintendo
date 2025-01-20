@@ -274,6 +274,13 @@ button {
     background-color: #ebe6e6;
     transform: rotateY(180deg);
     border-radius: 30px;
+    font-size: 15px;
+}
+
+
+.backOfCard div {
+
+    padding: 2px;
 }
 
 .card {
@@ -284,6 +291,9 @@ button {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
 }
 
 
