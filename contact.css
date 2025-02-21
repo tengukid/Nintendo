@@ -8,9 +8,10 @@ body {
 #navLogo {
 
     color: rgb(241, 231, 231);
-    font-size: 30px;
+    font-size: 20px;
 
 }
+
 
 .content {
 
@@ -86,7 +87,7 @@ button {
     border-style: inset;
     border-radius: 20px;
     background-color: #fdfdfd;
-    width: 1000px;
+    width: 800px;
 
 }
 
@@ -132,6 +133,19 @@ button {
     align-items: end;
 }
 
+#navmenu {
+
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.gifcon{
+    display:flex ;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+
 @media(max-width:1200px) {
 
     #headingGroup h1 {
@@ -141,3 +155,7 @@ button {
     }
 
 }
+
+
+
+
