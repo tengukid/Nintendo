@@ -83,7 +83,7 @@ button {
 #formcon {
 
     border: 2px solid black;
-    margin-top: 80px;
+    margin-top: 20px;
     border-style: inset;
     border-radius: 20px;
     background-color: #fdfdfd;
@@ -115,16 +115,20 @@ button {
 }
 
 
+
 .dark-toggler button {
 
-    border: none;
-    border: 2px solid white;
+
     background-color: black;
     color: white;
-    padding: 10px;
-    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-top: 50px;
+    margin-right: 10px;
 
 }
+
 
 .dtCON {
 

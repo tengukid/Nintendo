@@ -58,16 +58,20 @@ button {
 }
 
 
+
 .dark-toggler button {
 
-    border: none;
-    border: 2px solid white;
+
     background-color: black;
     color: white;
-    padding: 10px;
-    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin:5px;
+    margin-top: 50px;
 
 }
+
 
 .dtCON {
 
