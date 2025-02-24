@@ -56,7 +56,7 @@
 
     </section>
 
-    <div class="container" id="formcon">
+    <!--<div class="container" id="formcon">
 
         <div class="row">
 
@@ -72,14 +72,47 @@
                     <button type="submit" id="formbutton"
                         class=" btn btn-danger mt-3 btn border border-secondary mb-2">Send</button>
                 </form>
-
-            </div>
-            </form>
-        </div>
+-->
+    </div>
+    </form>
+    </div>
     </div>
     <ul id="submissionsList">
 
     </ul>
+
+    <section id="comments-container" class="container mt-4">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center">User Comments</h2>
+                <div id="comments-list" class="list-group">
+                    <!-- User comments will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <form id="comment-form">
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Name:</label>
+                        <input type="text" class="form-control" id="username" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="comment" class="form-label">Comment:</label>
+                        <textarea class="form-control" id="comment" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
     <div class="gifcon"><img src="IMGS/m64.gif" alt="" class="gif"></div>
 
 

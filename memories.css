@@ -128,6 +128,27 @@ ul{
     list-style-type: none;
 }
 
+
+#comments-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#comments-list {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
 @media(max-width:1200px) {
 
     #headingGroup h1 {
