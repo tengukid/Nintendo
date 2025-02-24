@@ -7,7 +7,6 @@ function darkToggle() {
 
 
 
-
 window.onscroll = function () {
 
     const nav = document.getElementById("mainNav");

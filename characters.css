@@ -78,13 +78,11 @@ button {
 
 .mappics {
 
-    border: 10px solid rgb(255, 252, 252);
+    border: 2px solid rgb(12, 2, 2);
     margin: 10px;
-    border-style: inset;
-    border-radius: 50px;
+    border-radius: 35px;
     flex-basis: 100%;
-    text-align: left;
-    height: 400px;
+     height: 400px;
     flex-basis: 30%;
     transform-style: preserve-3d;
     transition: transform 1s;
@@ -104,7 +102,7 @@ button {
 
 
 
-.citiescontainer {
+.charactercontainer {
 
     display: flex;
     flex-direction: row;
@@ -139,19 +137,18 @@ button {
 }
 
 
+
 .dark-toggler button {
 
-    border: none;
-    border: 2px solid white;
+
     background-color: black;
     color: white;
-    padding: 10px;
-    margin: 5px;
     display: flex;
     justify-content: flex-end;
     align-items: end;
 
 }
+
 
 
 #mario {
@@ -161,14 +158,14 @@ button {
     background-position: center;
     width: 100%;
     height: 100%;
-    border-radius: 40px;
+    border-radius: 35px;
 }
 
 #zelda {
     background-image: url(IMGS/zeldaMM.webp);
     background-size: cover;
     background-position: center;
-    border-radius: 40px;
+    border-radius: 35px;
 
 }
 
@@ -176,7 +173,7 @@ button {
     background-image: url(IMGS/pkemon.png);
     background-size: cover;
     background-position: center;
-    border-radius: 40px;
+    border-radius: 35px;
 
 }
 
@@ -184,27 +181,26 @@ button {
     background-image: url(IMGS/AC.webp);
     background-size: cover;
     background-position: center;
-    border-radius: 50px;
+    border-radius: 35px;
 }
 
 #Kirby {
     background-image: url(IMGS/kirby.webp);
     background-size: cover;
-    border-radius: 60px;
-
+    border-radius: 35px;
 }
 
 #DK {
     background-image: url(IMGS/dk.webp);
     background-size: cover;
-    border-radius: 40px;
+    border-radius: 35px;
     background-position: center;
 }
 
 #FZ {
     background-image: url(IMGS/f-zero-x---button-1559955074944.jpg);
     background-size: cover;
-    border-radius: 40px;
+    border-radius: 35px;
 
 }
 
@@ -212,14 +208,14 @@ button {
     background-image: url(IMGS/sf.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 40px;
+    border-radius: 35px;
 }
 
 #FE {
     background-image: url(IMGS/fe.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 40px;
+    border-radius: 35px;
 }
 
 .dtCON {
@@ -271,9 +267,20 @@ button {
 
     height: 100%;
     width: 100%;
-    background-color: #ebe6e6;
+    background-color: #ffffff;
     transform: rotateY(180deg);
     border-radius: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Urbanist", serif;
+
+    
+}
+
+
+.backOfCard div {
+
+    padding: 2px;
 }
 
 .card {
@@ -284,7 +291,35 @@ button {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    
 }
+
+.dtCON {
+
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dark-toggler {
+
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dark-mode .card {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255) !important;
+}
+
+ul {
+    list-style-type: none;
+    }
 
 
 @media(max-width:1200px) {
